@@ -1,0 +1,6 @@
+/content/
+/public/
+/resources/_gen/
+/themes/
+/.hugo_build.lock
+hugo_stats.json

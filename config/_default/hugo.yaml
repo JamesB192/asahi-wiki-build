@@ -1,0 +1,13 @@
+title: "Asahi Linux Wiki"
+theme: 'hugo-geekdoc'
+
+disableKinds:
+  - 'taxonomy'
+
+cascade:
+  - target:
+      path: '/_*'
+      kind: 'page'
+    _build:
+      list: 'never'
+      render: 'never'

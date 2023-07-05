@@ -1,0 +1,4 @@
+/* Links rendered by Hugo's 'markdownify' function in footer */
+.gdoc-footer__item a {
+  color: var(--footer-link-color);
+}
