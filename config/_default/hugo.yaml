@@ -11,3 +11,5 @@ cascade:
     _build:
       list: 'never'
       render: 'never'
+
+disablePathToLower: True
