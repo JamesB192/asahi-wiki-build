@@ -12,7 +12,7 @@ if ! [[ -e content ]]; then
 	# - Convert GitHub repository blob URLs to raw URLs
 	sed -i \
 		-e 's/\[\[\(.*\)|alt=\(.*\)\]\]/!\[\2\](\1)/g' \
-  		-e 's/\[\[\(.*\)|\(.*\)\]\]/\[\1\](\/asahi-wiki-build\/\2)/g' \
+		-e 's/\[\[\(.*\)|\(.*\)\]\]/\[\1\](\/asahi-wiki-build\/\2)/g' \
 		-e 's/\[\[\(.*\)\]\](\(.*\))/\[\1\](\2)/g' \
 		-e 's/\[\[\(.*\)\]\]/\[\1\]({{<internal-link `\1`>}})/g' \
 		-e 's/\(!\[.*\](\https:\/\/github\.com\/.*\/\)blob\(\/.*)\)/\1raw\2/g' \
